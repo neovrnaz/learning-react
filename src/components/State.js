@@ -1,4 +1,4 @@
-import React, {Component, useState, useEffect} from 'react';
+import React, { Component } from 'react';
 import ShowAndHide from "./ShowAndHide";
 
 class CountCounters extends Component {
@@ -17,7 +17,7 @@ class CountCounters extends Component {
             characters: e.target.value.length
         });
     };
- 
+
     render() {
         return (
             <div>

@@ -9,6 +9,10 @@ import logo from './logo.svg';
 import CountCharacters from './components/State';
 import ShowAndHide from './components/ShowAndHide';
 import State from "./components/State";
+import Props from "./components/Props";
+import ChildrenProps from "./components/ChildrenProps";
+import ChildrenPropsClass from "./components/ChildrenPropsClass";
+import Counter from "./components/Counter";
 
 class App extends Component {
   render() {
@@ -21,8 +25,15 @@ class App extends Component {
           {/*<CreateAnElement />*/}
           {/*<CountCharacters />*/}
           {/*<Employee2 />*/}
-          <State/>
+          {/*<State />*/}
           {/*<ShowAndHide />*/}
+          {/*<Props name="Bruce" heroName="Batman" />*/}
+          {/*<Props name="Clark" heroName="Superman" />*/}
+          {/*<ChildrenProps name="George">*/}
+          {/*  <p>This is Children Props</p>*/}
+          {/*</ChildrenProps>*/}
+          {/*<ChildrenPropsClass />*/}
+          <Counter />
         </header>
       </div>
     );
