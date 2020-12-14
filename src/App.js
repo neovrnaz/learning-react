@@ -12,6 +12,8 @@ import State from "./components/State";
 import Props from "./components/Props";
 import ChildrenProps from "./components/ChildrenProps";
 import ChildrenPropsClass from "./components/ChildrenPropsClass";
+import MessageState from "./components/MessageState";
+import CounterBadExample from "./components/CounterBadExample";
 import Counter from "./components/Counter";
 
 class App extends Component {
@@ -33,6 +35,7 @@ class App extends Component {
           {/*  <p>This is Children Props</p>*/}
           {/*</ChildrenProps>*/}
           {/*<ChildrenPropsClass />*/}
+          {/*<MessageState />*/}
           <Counter />
         </header>
       </div>
