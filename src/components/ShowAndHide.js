@@ -1,8 +1,8 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 
 const ShowAndHide = () => {
-  const [show, setShow] = useState(false)
-  const onClick = () => setShow(true)
+  const [show, setShow] = useState(false);
+  const onClick = () => setShow(!show);
   return (
       <div>
         <input type="submit" value="Toggle" onClick={onClick} />
