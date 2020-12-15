@@ -15,6 +15,8 @@ import ChildrenPropsClass from "./components/ChildrenPropsClass";
 import MessageState from "./components/MessageState";
 import CounterBadExample from "./components/CounterBadExample";
 import Counter from "./components/Counter";
+import DestructuringPropsState from "./components/DestructuringPropsState";
+import FunctionClick from "./components/FunctionClick";
 
 class App extends Component {
   render() {
@@ -36,7 +38,9 @@ class App extends Component {
           {/*</ChildrenProps>*/}
           {/*<ChildrenPropsClass />*/}
           {/*<MessageState />*/}
-          <Counter />
+          {/*<Counter />*/}
+          {/*<DestructuringPropsState />*/}
+          <FunctionClick />
         </header>
       </div>
     );
